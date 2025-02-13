@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #7f8c8d;
+    color: #bdc3c7;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #34495e;
+    color: #a4a7a8;
+    padding: 50px 20px;
+}
+
+.hero span {
+    color: gold;
+}
+
+div {
+    padding: 10px 20px;
+    margin: 25px;
+    background: #2c3e50;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 97%;
+    height: 20%;
+}
+
+div #picture {
+    border-bottom: 3%;
+    width: 80%;
+    padding: 1px 1px;
+    margin-right: 10%;
+}
+
+
+.text {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    margin: 25px auto;
+    margin-left: 2%;
+    width: 100%;
+    max-width: 1224px;
+    height: 82%;
+    background: #2c3e50;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#picture {
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+.text {
+    padding-right: 20%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: 0 0 5px #bdc3c7, 0 0 10px #bdc3c7, 0 0 15px #bdc3c7;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes text {
+    50% {
+        text-shadow: 0 0 5px #bdc3c7, 0 0 10px #bdc3c7, 0 0 15px #bdc3c7;
+    }
+
+    100% {
+        text-shadow: 0 0 10px #bdc3c7, 0 0 20px #bdc3c7, 0 0 30px #bdc3c7;
+    }
+}
+
+#skills li {
+    display: inline-block;
+    background: #5e6667;
+    color: rgb(22, 22, 22);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+#project li {
+    display: inline-block;
+    background: #5e6667;
+    color: rgb(22, 22, 22);
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+footer {
+    background-color: #323435;
+    color: #7f8c8d;
+    padding: 10px;
+    margin-top: 20px;
+}
